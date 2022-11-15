@@ -1,0 +1,26 @@
+.input {
+    height: 40px;
+    padding: 0 10px 0 10px;
+    border: 1px solid rgb(28, 3, 96);
+    ;
+    outline: none;
+    color: grey;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.input:focus {
+    border-color: rgb(38, 79, 201);
+}
+
+.input::placeholder {
+    font-size: 12px;
+    color: gray;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(52, 28, 174);
+    margin-bottom: 5px;
+}

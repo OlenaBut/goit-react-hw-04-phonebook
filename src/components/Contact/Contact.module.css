@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(52, 28, 174);
+    margin-right: 15px;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+    border: none;
+    padding: 16px 16px;
+    color: grey;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+
+    color: rgb(56, 27, 222);
+}
+
+.number {
+    margin: 15px;
+    font-weight: 450;
+    font-size: 25px;
+    margin-right: 5px;
+    color: rgb(52, 28, 174);
+}
