@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
-import { FaUserAlt, FaTrash } from 'react-icons/fa';
+import { FaTrash, FaUserAlt } from 'react-icons/fa';
 import css from './Contact.module.css'
+
 export default function Contact({ name, number, onDeleteContact, contactId }) {
   return (
     <>

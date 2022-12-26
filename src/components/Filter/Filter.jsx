@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import css from 'components/Filter/Filter.module.css'
 
+
 export  function Filter({ filter, changeFilter }) {
   return (
     <label className={css.label}>

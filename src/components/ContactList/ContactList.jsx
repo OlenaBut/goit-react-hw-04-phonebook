@@ -7,7 +7,7 @@ import Contact from 'components/Contact/Contact';
     <ul>
       {contacts.map(({ id, name, number }) => {
         return (
-          <li className="{css.item}" key={id}>
+          <li className={css.item} key={id}>
             <Contact
               name={name}
               number={number}
@@ -22,12 +22,12 @@ import Contact from 'components/Contact/Contact';
 }
 
 ContactList.prototype = {
-    contacts: PropTypes.arrayOf(
-        PropTypes.shape({
-            id: PropTypes.string.isRequired,
-            name: PropTypes.string.isRequired,
-            number: PropTypes.string.isRequired,
-        })
-    ).isRequired,
-    onDeleteContact: PropTypes.func.isRequired,
+  contacts: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      number: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  onDeleteContact: PropTypes.func.isRequired,
 };
